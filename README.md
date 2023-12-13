@@ -1,1 +1,2 @@
-# Traffic-Light-Controller-
+# Traffic-Light-Controller
+This code defines a VHDL entity (TrafficLightController) and its corresponding architecture (Behavioral) for controlling a traffic light system. The entity has four ports: clock, reset, sensor, highway_light, and farm_light. The clock signal is used to synchronize the state transitions of the traffic light, the reset signal is used to reset the state machine, the sensor signal indicates whether a vehicle is detected on the farm road, and the highway_light and farm_light signals control the state of the traffic lights for the highway and farm road, respectively.
